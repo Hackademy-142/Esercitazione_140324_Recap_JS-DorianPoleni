@@ -20,5 +20,5 @@ console.log(list);
 function greet(array){
     array.forEach( (person) => person.greeting = `Awee regà, mi chiamo ${person.firstName} e lavoro con ${person.language}, ma effettivamente è meglio javascript` );
 
-    return array;
+    // return array;  //Il return non serve perchè viene ritornato in automatico da forEach
 }
